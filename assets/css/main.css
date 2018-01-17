@@ -392,8 +392,8 @@ i {
 }
 
 p {
-	margin: 0 0 1.5rem 0;
-	opacity: .75;
+  margin: 0 0 1.5rem 0;
+  opacity: .75;
 }
 
 body.is-ie p {
@@ -1859,22 +1859,9 @@ button:disabled,
 }
 
 .gallery .image:after {
-  -moz-transition: opacity 0.2s ease-in-out;
-  -webkit-transition: opacity 0.2s ease-in-out;
-  -ms-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
+  opacity: 0
 }
 
-.gallery .image:hover img {
-  -moz-transform: scale(1.025);
-  -webkit-transform: scale(1.025);
-  -ms-transform: scale(1.025);
-  transform: scale(1.025);
-}
-
-.gallery .image:hover:after {
-  opacity: 0;
-}
 
 .gallery .group {
   display: -moz-flex;
