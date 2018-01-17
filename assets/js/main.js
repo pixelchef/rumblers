@@ -52,7 +52,7 @@
 						momentum: 0.875,
 
 					// Sets the drag threshold (in pixels).
-						threshold: 10
+						threshold: 0
 
 				},
 
