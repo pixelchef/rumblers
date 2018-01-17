@@ -1743,7 +1743,7 @@ input[type="reset"].special:active,
 input[type="button"].special:active,
 button.special:active,
 .button.special:active {
-  background-color: #fdd997;
+  background-color: #f5f5f5;
 }
 
 input[type="submit"].disabled,
