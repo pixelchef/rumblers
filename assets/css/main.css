@@ -3727,6 +3727,8 @@ body.is-loading #wrapper {
 @media screen and (max-width: 480px) {
   #wrapper {
     box-shadow: none;
+    margin: 0;
+    border-radius: 0;
   }
   body.is-loading #wrapper {
     -moz-transform: none;
